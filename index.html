@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="barra-lateral col-12 col-sm-auto">
+                <div class="logo">
+                    <h2>Dashboard</h2>
+                </div>
+                <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+                    <a href="#" class="icon-home"><span>Inicio</span></a>
+                    <a href="#" class="icon-doc-text"><span>Entradas</span></a>
+                    <a href="#" class="icon-users"><span>Usuarios</span></a>
+                    <a href="#" class="icon-cog-alt"><span>Configuracion</span></a>
+                    <a href="#" class="icon-logout"><span>Salir</span></a>
+                </nav>
+            </div>
+
+            <main class="main col">
+                <div class="row">
+                    <div class="columna col-lg-7">
+                        <div class="widget nueva_entrada">
+                            <h3 class="titulo">Nueva entrada</h3>
+                            <form action="#">
+                                <input type="text" placeholder="Titulo de la entrada">
+                                <textarea placeholder="LoremLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "></textarea>
+                                <div class="d-flex justify-content-end">
+                                    <button><i class="icon icon-edit"></i>Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="columna col-lg-5">
+                        <div class="widget estadisticas">
+                            <h3 class="titulo">Estadisticas</h3>
+                            <div class="contenedor d-flex flex-wrap">
+                                <div class="caja">
+                                    <h3>39,236</h3>
+                                    <p>Visitas</p>
+                                </div>
+                                <div class="caja">
+                                    <h3>4,236</h3>
+                                    <p>Registros</p>
+                                </div>
+                                <div class="caja">
+                                    <h3>$891,736</h3>
+                                    <p>Ingresos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget comentarios">
+                            <h3 class="titulo">Comentarios</h3>
+                            <div class="contenedor">
+                                <div class="comentario d-flex flex-wrap">
+                                    <div class="foto">
+                                        <a href="#">
+                                            <img src="img/persona-01.jpg" width="100" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="texto">
+                                        <a href="#">Li an</a>
+                                        <p>en <a href="#">Mi primer entrada</a></p>
+                                        <p class="texto-comentario">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet totam quos incidunt eum quasi a sint aperiam? Maxime unde, ratione optio earum placeat asperiores reiciendis tempora soluta animi temporibus?
+                                        </p>
+                                    </div>
+                                    <div class="botones d-flex justify-content-start flex-wrap w-100">
+                                        <button class="aprobar"><i class="icono icon-ok"></i>Aprobar</button>
+                                        <button class="eliminar"><i class="icono icon-cancel"></i>Eliminar</button>
+                                        <button class="bloquear"><i class="icono icon-flag"></i>Bloquear usuario</button>
+                                    </div>
+                                </div>
+                                <div class="comentario d-flex flex-wrap">
+                                    <div class="foto">
+                                        <a href="#">
+                                            <img src="img/persona-02.jpg" width="100" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="texto">
+                                        <a href="#">Jon Blizz</a>
+                                        <p>en <a href="#">Mi primer entrada</a></p>
+                                        <p class="texto-comentario">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet totam quos incidunt eum quasi a sint aperiam? Maxime unde, ratione optio earum placeat asperiores reiciendis tempora soluta animi temporibus?
+                                        </p>
+                                    </div>
+                                    <div class="botones d-flex justify-content-start flex-wrap w-100">
+                                        <button class="aprobar"><i class="icono icon-ok"></i>Aprobar</button>
+                                        <button class="eliminar"><i class="icono icon-cancel"></i>Eliminar</button>
+                                        <button class="bloquear"><i class="icono icon-flag"></i>Bloquear usuario</button>
+                                    </div>
+                                </div>
+                                <div class="comentario d-flex flex-wrap">
+                                    <div class="foto">
+                                        <a href="#">
+                                            <img src="img/persona-04.jpg" width="100" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="texto">
+                                        <a href="#">Marcus Damon</a>
+                                        <p>en <a href="#">Mi primer entrada</a></p>
+                                        <p class="texto-comentario">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet totam quos incidunt eum quasi a sint aperiam? Maxime unde, ratione optio earum placeat asperiores reiciendis tempora soluta animi temporibus?
+                                        </p>
+                                    </div>
+                                    <div class="botones d-flex justify-content-start flex-wrap w-100">
+                                        <button class="aprobar"><i class="icono icon-ok"></i>Aprobar</button>
+                                        <button class="eliminar"><i class="icono icon-cancel"></i>Eliminar</button>
+                                        <button class="bloquear"><i class="icono icon-flag"></i>Bloquear usuario</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
